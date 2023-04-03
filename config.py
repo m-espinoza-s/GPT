@@ -1,4 +1,4 @@
-API_KEY='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'
+API_KEY="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"
 usr="FALP\matias.espinoza"
 pwd="8779abc"
 
@@ -10,7 +10,7 @@ pwd="8779abc"
 
 query=""" 
 
-select top 50 
+select top 10 
 
 convert(date,FECHA_EVOLUCION,103) as FECHA,
 FICHA,
