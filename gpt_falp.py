@@ -14,7 +14,7 @@ conn=Innova(config.usr,config.pwd)
 
 df=conn.innovacion(query=query)
 
-agent=create_pandas_dataframe_agent(OpenAI(temperature=0.3,openai_api_key=openai.api_key,model="text-davinci-003"),df,verbose=True)
+agent=create_pandas_dataframe_agent(OpenAI(temperature=0,openai_api_key=openai.api_key,model="text-davinci-003"),df,verbose=True)
 
 
 list=[]
